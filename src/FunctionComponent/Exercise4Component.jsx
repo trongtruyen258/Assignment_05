@@ -4,7 +4,7 @@ export default function Exercise4Component() {
     const lName = lastName;
     return (
       <div>
-        4a:
+        <h3>4a:</h3>
         <p>fName: {fName}</p>
         <p>lName: {lName}</p>
         <p>fullName: {fName + " " + lName}</p>
@@ -22,7 +22,7 @@ export default function Exercise4Component() {
   };
   let exercise4b = (
     <div>
-      4b:
+      <h3>4b:</h3>
       <div
         style={{
           display: "flex",

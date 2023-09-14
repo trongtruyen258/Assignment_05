@@ -2,7 +2,7 @@ import "./exercise3.css";
 export default function Exercise3Component() {
   let exercise3a = (
     <div>
-      3a:
+      <h3>3a:</h3>
       <div style={{ border: "1px solid red" }}>Hello World</div>
       <div className="exercise3-style1">Hello World</div>
       <div className="exercise3-style2">Hello World</div>
@@ -12,7 +12,7 @@ export default function Exercise3Component() {
     "https://vtiacademy.edu.vn/upload/images/anh-link/cau-hoi-phong-van-web-developer.jpeg";
   let exercise3b = (
     <div className="section-ex3">
-      3b:
+      <h3>3b:</h3>
       <section>
         <h2>Học lập trình web có đơn giản không</h2>
         <img style={{ width: "300px" }} src={path} alt="hinh anh"></img>

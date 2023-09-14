@@ -1,14 +1,14 @@
 export default function Exercise2Component() {
   let exercise2a = (
     <div>
-      2a:
+      <h3>2a:</h3>
       <h1>Hello World</h1>
       <p>My first paragraph</p>
     </div>
   );
   let exercise2b = (
     <div>
-      2b:
+      <h3>2b:</h3>
       <h2>DANH SÁCH LỚP HỌC</h2>
       <ol>
         <li>Nguyễn Ngọc Duy</li>
@@ -41,7 +41,8 @@ export default function Exercise2Component() {
   );
   let exercise2c = (
     <div>
-      2c:<div onClick={handleClick}>Hello World</div>
+      <h3>2c:</h3>
+      <div onClick={handleClick}>Hello World</div>
     </div>
   );
   return (

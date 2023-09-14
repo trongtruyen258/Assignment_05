@@ -22,6 +22,9 @@ import Ex1eFooterComponent from "./ClassComponent/Exercise1e/Ex1eFooterComponent
 import Table1Component from "./ClassComponent/Exercise1f/Table1Component";
 import Table2Component from "./ClassComponent/Exercise1f/Table2Component";
 import FilterableProductTable from "./ClassComponent/Exercise2b/FilterableProductTable";
+import Convert1a from "./ConvertClassComponentToFuncComponent/Convert1a";
+import Convert1b from "./ConvertClassComponentToFuncComponent/Convert1b";
+import Convert1c from "./ConvertClassComponentToFuncComponent/Convert1c";
 
 function App() {
   return (
@@ -29,28 +32,28 @@ function App() {
       <div>
         <h1>Functional Component</h1>
         <div>
-          Exercise 1:
+          <h2>Exercise 1:</h2>
           <Exercise1Component />
         </div>
         <div>
-          Exercise 2:
+          <h2>Exercise 2:</h2>
           <Exercise2Component />
         </div>
         <div>
-          Exercise 3:
+          <h2>Exercise 3:</h2>
           <Exercise3Component />
         </div>
         <div>
-          Exercise4:
+          <h2>Exercise 4:</h2>
           <Exercise4Component />
         </div>
       </div>
       <div>
         <h1>Class Component</h1>
         <div>
-          Exercise 1:
+          <h2>Exercise 1:</h2>
           <div>
-            1a:
+            <h3>1a:</h3>
             <div style={{ display: "flex" }}>
               <Ex1aClassComponent />
               <Ex1aClassComponent />
@@ -58,11 +61,11 @@ function App() {
             </div>
           </div>
           <div>
-            1b:
+            <h3>1b:</h3>
             <Ex1bComponent />
           </div>
           <div>
-            1c:
+            <h3>1c:</h3>
             <div style={{ display: "flex" }}>
               <Ex1cLeftComponent />
               <Ex1cCenterComponent />
@@ -70,7 +73,7 @@ function App() {
             </div>
           </div>
           <div>
-            1d:
+            <h3>1d:</h3>
             <div style={{ display: "grid", gridTemplateColumns: "30% 70%" }}>
               <Ex1dHeaderComponent />
               <Ex1dSideComponent />
@@ -79,7 +82,7 @@ function App() {
             </div>
           </div>
           <div>
-            1e:
+            <h3>1e:</h3>
             <div style={{ display: "grid", gridTemplateColumns: "70% 30%" }}>
               <Ex1eHeaderComponent />
               <Ex1eNavComponent />
@@ -90,7 +93,7 @@ function App() {
             </div>
           </div>
           <div>
-            1f:
+            <h3>1f:</h3>
             <div style={{ padding: "10px" }}>
               <Table1Component />
             </div>
@@ -100,10 +103,29 @@ function App() {
           </div>
         </div>
         <div>
-          Exercise 2:
+          <h2>Exercise 2:</h2>
           <div>
-            2b:
+            <h3>2b:</h3>
             <FilterableProductTable />
+          </div>
+        </div>
+        <div>
+          <h2>Exercise 3:</h2>
+          <div>
+            <h3>Covert 1a:</h3>
+            <div style={{ display: "flex" }}>
+              <Convert1a />
+              <Convert1a />
+              <Convert1a />
+            </div>
+          </div>
+          <div>
+            <h3>Covert 1b:</h3>
+            <Convert1b />
+          </div>
+          <div>
+            <h3>Covert 1c:</h3>
+            <Convert1c />
           </div>
         </div>
       </div>
